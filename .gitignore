@@ -1,4 +1,4 @@
-# Ignore log files
+# Ignore .env files
 .env
 me.txt
 me copy.txt
