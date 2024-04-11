@@ -1,0 +1,10 @@
+sentence-transformers
+uvicorn
+ctransformers
+langchain
+python-box
+streamlit
+python-dotenv
+replicate
+transformers
+replicate
