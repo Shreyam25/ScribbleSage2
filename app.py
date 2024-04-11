@@ -7,11 +7,10 @@ import warnings
 warnings.filterwarnings("ignore")
 import replicate
 from replicate.client import Client
-#hhhhhhhhhhhh
+
 from dotenv import load_dotenv
 import os
 
-# Load environment variables from .env file
 load_dotenv()
 
 # Now you can access your environment variables
@@ -19,7 +18,7 @@ REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")
 
 # api = replicate.Client(api_token=os.environ["REPLICATE_API_TOKEN"])
 
-replicate = Client(api_token=os.getenv("REPLICATE_API_TOKEN"))
+replicate = Client(api_token=st.secrets["REPLICATE_API_TOKEN"])
 
 
 
